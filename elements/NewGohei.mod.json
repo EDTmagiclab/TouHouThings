@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goheithing",
+    "customModelName": "Normal",
+    "name": "御币",
+    "specialInfo": [
+      "巫女的御币",
+      "近战时似乎可以劈开什么东西"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 13,
+    "damageVsEntity": 5.0,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -71,20 +71,111 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "repair_jade_ball"
+    },
+    {
+      "name": "BuildGohei",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_gohei"
+    },
+    {
+      "name": "PickaxeOfHimemushi",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_of_himemushi"
+    },
+    {
+      "name": "IzanagiMetal",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "izanagi_metal"
+    },
+    {
+      "name": "BuildIzangaiMetal",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_izangai_metal"
+    },
+    {
+      "name": "BuildPickaxeOfHimemushi",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_pickaxe_of_himemushi"
+    },
+    {
+      "name": "GSWS",
+      "type": "potion",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gsws"
+    },
+    {
+      "name": "BuildGSWS",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_gsws"
+    },
+    {
+      "name": "GSWSMAX",
+      "type": "potion",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gswsmax"
+    },
+    {
+      "name": "BuildGSWSMAX",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_gswsmax"
+    },
+    {
+      "name": "NewGohei",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_gohei"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.touhouthings.izanagi_metal": "伊奘诺合金",
+      "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
+      "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
+      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.minecraft.potion.effect.gsws": "国士无双之药",
+      "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
+      "item.touhouthings.new_gohei": "御币",
       "item.touhouthings.magic_neddle": "Magic Neddle",
       "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
-      "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
-      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
+      "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
+      "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
       "item.touhouthings.jade_ball": "阴阳玉",
-      "item.touhouthings.izanagi_object": "Izanagi Object",
       "itemGroup.touhouthings.touhou_things": "东方物品",
-      "item.minecraft.potion.effect.hourai_poison": "蓬莱药"
+      "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
+      "item.minecraft.splash_potion.effect.gsws": "喷溅型国士无双之药",
+      "item.minecraft.lingering_potion.effect.gsws": "滞留型国士无双之药"
     }
   },
   "foldersRoot": {

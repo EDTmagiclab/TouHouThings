@@ -1,0 +1,34 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pickaxe1",
+    "customModelName": "Normal",
+    "name": "百百世之镐",
+    "specialInfo": [
+      "蜈蚣们制作的镐子",
+      "拥有接近金镐的挖掘速度和接近下界合金镐的挖掘等级"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 4.0,
+    "usageCount": 750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IzanagiObject"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "国士无双之药",
+    "splashName": "喷溅型国士无双之药",
+    "lingeringName": "滞留型国士无双之药",
+    "arrowName": "永琳的国士无双药箭",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 300,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 300,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": true,
+        "showParticles": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "国士无双MAX",
+    "splashName": "喷溅型国士无双MAX",
+    "lingeringName": "滞留型国士无双MAX",
+    "arrowName": "永琳的国士无双MAX药箭",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 300,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 300,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 300,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "LEVITATION"
+        },
+        "duration": 60,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "GLOWING"
+        },
+        "duration": 60,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:GSWSMAX"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.GLOWSTONE_DUST"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:GSWS"
+    },
+    "name": "build_gswsmax",
+    "namespace": "mod"
+  }
+}
