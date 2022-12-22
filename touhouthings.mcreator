@@ -1,0 +1,112 @@
+{
+  "mod_elements": [
+    {
+      "name": "HouraiPoison",
+      "type": "potion",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hourai_poison"
+    },
+    {
+      "name": "BuildHouraiPoison",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_hourai_poison"
+    },
+    {
+      "name": "JadeBall",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_ball"
+    },
+    {
+      "name": "MagicNeddle",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_neddle"
+    },
+    {
+      "name": "IzanagiObject",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "izanagi_object"
+    },
+    {
+      "name": "BuildIzanagiObject",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_izanagi_object"
+    },
+    {
+      "name": "BuildJadeBall",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_jade_ball"
+    },
+    {
+      "name": "TouhouThings",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "touhou_things"
+    },
+    {
+      "name": "RepairJadeBall",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repair_jade_ball"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.touhouthings.magic_neddle": "Magic Neddle",
+      "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
+      "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
+      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.jade_ball": "阴阳玉",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
+      "itemGroup.touhouthings.touhou_things": "东方物品",
+      "item.minecraft.potion.effect.hourai_poison": "蓬莱药"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "touhouthings",
+    "modName": "东方物品",
+    "version": "1.0.0",
+    "author": "Kaguya, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.touhouthings",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

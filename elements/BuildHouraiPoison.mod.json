@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.GOLDEN_APPLE#1"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:HouraiPoison"
+    },
+    "name": "build_hourai_poison",
+    "namespace": "mod"
+  }
+}

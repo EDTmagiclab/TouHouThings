@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "tu_pian_1",
+    "customModelName": "Normal",
+    "name": "阴阳玉",
+    "specialInfo": [
+      "博丽神社的阴阳玉"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 300,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:MagicNeddle"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lava_bucket"
+    },
+    "2": {
+      "item": "minecraft:lava_bucket"
+    },
+    "4": {
+      "item": "minecraft:coal_block"
+    },
+    "6": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "touhouthings:izanagi_object",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "东方物品",
+    "icon": {
+      "value": "CUSTOM:JadeBall"
+    },
+    "showSearch": false
+  }
+}

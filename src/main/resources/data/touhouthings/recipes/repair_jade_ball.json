@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "touhouthings:jade_ball"
+  },
+  "addition": {
+    "item": "touhouthings:izanagi_object"
+  },
+  "result": {
+    "item": "touhouthings:jade_ball"
+  }
+}

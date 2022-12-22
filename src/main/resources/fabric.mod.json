@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "touhouthings",
+  "version": "1.0.0",
+  "name": "东方物品",
+  "authors": [
+    "Kaguya, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.touhouthings.TouhouthingsMod"
+    ],
+    "client": [
+      "net.mcreator.touhouthings.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "touhouthings.mixins.json"
+  ]
+}

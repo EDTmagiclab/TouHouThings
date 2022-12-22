@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "蓬莱药",
+    "splashName": "喷溅型蓬莱药",
+    "lingeringName": "滞留型蓬莱药",
+    "arrowName": "蓬莱药箭",
+    "effects": [
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 12000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 12000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 12000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
