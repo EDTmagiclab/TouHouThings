@@ -247,6 +247,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_blocker"
+    },
+    {
+      "name": "MoneyChestGUI",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_chest_gui"
+    },
+    {
+      "name": "MoneyChest",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_chest"
+    },
+    {
+      "name": "BuildMoneyChest",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_money_chest"
     }
   ],
   "variable_elements": [],
@@ -263,6 +287,7 @@
       "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
       "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
       "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
+      "block.touhouthings.money_chest": "赛钱箱",
       "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
       "item.touhouthings.izanagi_metal": "伊奘诺合金",
       "item.touhouthings.ironstick": "铁条",

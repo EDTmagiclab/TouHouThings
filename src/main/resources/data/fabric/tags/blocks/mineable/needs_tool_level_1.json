@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "touhouthings:blocker"
+    "touhouthings:blocker",
+    "touhouthings:money_chest"
   ]
 }

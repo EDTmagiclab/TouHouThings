@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "2": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "3": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "5": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "6": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "7": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "8": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "touhouthings:money_chest",
+    "count": 1
+  }
+}

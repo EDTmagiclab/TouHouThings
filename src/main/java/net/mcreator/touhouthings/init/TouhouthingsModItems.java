@@ -35,6 +35,7 @@ public class TouhouthingsModItems {
 	public static Item BA_GUA_STOVE;
 	public static Item P_POINT;
 	public static Item BLOCKER;
+	public static Item MONEY_CHEST;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -52,5 +53,7 @@ public class TouhouthingsModItems {
 		P_POINT = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "p_point"), new PPointItem());
 		BLOCKER = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "blocker"),
 				new BlockItem(TouhouthingsModBlocks.BLOCKER, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS)));
+		MONEY_CHEST = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "money_chest"),
+				new BlockItem(TouhouthingsModBlocks.MONEY_CHEST, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS)));
 	}
 }
