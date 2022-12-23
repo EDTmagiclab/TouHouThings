@@ -35,7 +35,7 @@ public class JadeBallEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return null;
+		return new ItemStack(TouhouthingsModItems.P_POINT);
 	}
 
 	@Override
@@ -72,7 +72,7 @@ public class JadeBallEntity extends AbstractArrow implements ItemSupplier {
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(4);
-		entityarrow.setKnockback(5);
+		entityarrow.setKnockback(2);
 		entityarrow.setCritArrow(false);
 		entity.level.addFreshEntity(entityarrow);
 		double x = entity.getX();

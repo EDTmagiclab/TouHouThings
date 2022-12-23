@@ -31,7 +31,7 @@ public class BaGuaStoveEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	public ItemStack getItem() {
-		return new ItemStack(Blocks.BUBBLE_COLUMN);
+		return new ItemStack(Blocks.TNT);
 	}
 
 	@Override
@@ -56,11 +56,11 @@ public class BaGuaStoveEntity extends AbstractArrow implements ItemSupplier {
 		BaGuaStoveEntity entityarrow = new BaGuaStoveEntity(TouhouthingsModEntities.BA_GUA_STOVE, entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
-		world.playSound((Player) null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.ARROW_SHOOT, SoundSource.PLAYERS, 1,
+		world.playSound((Player) null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.TNT_PRIMED, SoundSource.PLAYERS, 1,
 				1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
@@ -72,14 +72,14 @@ public class BaGuaStoveEntity extends AbstractArrow implements ItemSupplier {
 		double d3 = target.getZ() - entity.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(6);
+		entityarrow.setBaseDamage(4);
 		entityarrow.setKnockback(5);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		entity.level.playSound((Player) null, (double) x, (double) y, (double) z, SoundEvents.ARROW_SHOOT, SoundSource.PLAYERS, 1,
+		entity.level.playSound((Player) null, (double) x, (double) y, (double) z, SoundEvents.TNT_PRIMED, SoundSource.PLAYERS, 1,
 				1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}

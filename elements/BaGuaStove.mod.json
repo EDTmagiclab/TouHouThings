@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "tu_pian_3",
     "customModelName": "Normal",
-    "name": "Ba Gua Stove",
+    "name": "迷你八卦炉",
     "specialInfo": [
       "魔理沙的迷你八卦炉",
       "可以发射激光",
@@ -21,19 +21,19 @@
     "shootConstantly": false,
     "usageCount": 1800,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "entity.tnt.primed"
     },
     "hasGlow": false,
     "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 3.0,
-    "bulletDamage": 6.0,
+    "bulletDamage": 4.0,
     "bulletKnockback": 5,
-    "bulletParticles": false,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Blocks.BUBBLE_COLUMN"
+      "value": "Blocks.TNT"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""

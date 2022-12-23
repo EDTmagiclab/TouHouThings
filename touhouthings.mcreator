@@ -277,10 +277,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
-      "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
       "block.touhouthings.blocker": "防撞桶",
       "item.touhouthings.new_gohei": "御币",
@@ -292,7 +292,7 @@
       "item.touhouthings.izanagi_metal": "伊奘诺合金",
       "item.touhouthings.ironstick": "铁条",
       "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
-      "item.touhouthings.ba_gua_stove": "Ba Gua Stove",
+      "item.touhouthings.ba_gua_stove": "迷你八卦炉",
       "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
       "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
       "item.touhouthings.magic_neddle": "Magic Neddle",

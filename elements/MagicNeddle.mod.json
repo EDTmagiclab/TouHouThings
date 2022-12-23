@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "neddle",
+    "texture": "yu_",
     "customModelName": "Normal",
     "name": "Magic Neddle",
     "rarity": "COMMON",

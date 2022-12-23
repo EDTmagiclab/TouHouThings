@@ -14,7 +14,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "CUSTOM:PPoint"
     },
     "shootConstantly": false,
     "usageCount": 300,
@@ -27,7 +27,7 @@
     "damageVsEntity": 4.0,
     "bulletPower": 1.0,
     "bulletDamage": 4.0,
-    "bulletKnockback": 5,
+    "bulletKnockback": 2,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {

@@ -69,7 +69,7 @@ public class BaGuaStoveItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					BaGuaStoveEntity entityarrow = BaGuaStoveEntity.shoot(world, entity, world.getRandom(), 3f, 6, 5);
+					BaGuaStoveEntity entityarrow = BaGuaStoveEntity.shoot(world, entity, world.getRandom(), 3f, 4, 5);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
