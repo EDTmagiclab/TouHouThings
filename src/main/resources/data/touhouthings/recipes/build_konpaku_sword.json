@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "touhouthings:ironstick"
+    },
+    "1": {
+      "item": "touhouthings:ironstick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "touhouthings:konpaku_sword",
+    "count": 1
+  }
+}

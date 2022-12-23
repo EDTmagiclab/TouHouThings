@@ -151,29 +151,114 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_gohei"
+    },
+    {
+      "name": "Ironstick",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironstick"
+    },
+    {
+      "name": "KonpakuSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "konpaku_sword"
+    },
+    {
+      "name": "BuildIronStick",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_iron_stick"
+    },
+    {
+      "name": "BuildKonpakuSword",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_konpaku_sword"
+    },
+    {
+      "name": "SakataWoodKnife",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakata_wood_knife"
+    },
+    {
+      "name": "BuildSakataKnife",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_sakata_knife"
+    },
+    {
+      "name": "BaGuaStove",
+      "type": "rangeditem",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ba_gua_stove"
+    },
+    {
+      "name": "PPoint",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_point"
+    },
+    {
+      "name": "BuildBaGuaSlove",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_ba_gua_slove"
+    },
+    {
+      "name": "BuildPPoint",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_p_point"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.touhouthings.izanagi_metal": "伊奘诺合金",
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
       "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
-      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
-      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
-      "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
       "item.touhouthings.new_gohei": "御币",
-      "item.touhouthings.magic_neddle": "Magic Neddle",
-      "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
       "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
       "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
       "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
+      "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
+      "item.touhouthings.izanagi_metal": "伊奘诺合金",
+      "item.touhouthings.ironstick": "铁条",
+      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.ba_gua_stove": "Ba Gua Stove",
+      "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
+      "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
+      "item.touhouthings.magic_neddle": "Magic Neddle",
+      "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
       "item.touhouthings.jade_ball": "阴阳玉",
       "itemGroup.touhouthings.touhou_things": "东方物品",
-      "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
+      "item.touhouthings.konpaku_sword": "楼观剑",
+      "item.touhouthings.p_point": "P点",
       "item.minecraft.splash_potion.effect.gsws": "喷溅型国士无双之药",
       "item.minecraft.lingering_potion.effect.gsws": "滞留型国士无双之药"
     }

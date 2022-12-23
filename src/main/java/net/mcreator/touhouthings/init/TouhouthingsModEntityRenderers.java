@@ -14,5 +14,6 @@ import net.fabricmc.api.EnvType;
 public class TouhouthingsModEntityRenderers {
 	public static void load() {
 		EntityRendererRegistry.register(TouhouthingsModEntities.JADE_BALL, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BA_GUA_STOVE, ThrownItemRenderer::new);
 	}
 }

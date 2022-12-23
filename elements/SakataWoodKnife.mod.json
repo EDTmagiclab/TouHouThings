@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sakataknife",
+    "customModelName": "Normal",
+    "name": "山姥的柴刀",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 14,
+    "damageVsEntity": 9.0,
+    "usageCount": 275,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
