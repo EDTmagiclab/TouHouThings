@@ -5,6 +5,7 @@
 package net.mcreator.touhouthings.init;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
@@ -33,6 +34,7 @@ public class TouhouthingsModItems {
 	public static Item SAKATA_WOOD_KNIFE;
 	public static Item BA_GUA_STOVE;
 	public static Item P_POINT;
+	public static Item BLOCKER;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -48,5 +50,7 @@ public class TouhouthingsModItems {
 				new SakataWoodKnifeItem());
 		BA_GUA_STOVE = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "ba_gua_stove"), new BaGuaStoveItem());
 		P_POINT = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "p_point"), new PPointItem());
+		BLOCKER = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "blocker"),
+				new BlockItem(TouhouthingsModBlocks.BLOCKER, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS)));
 	}
 }

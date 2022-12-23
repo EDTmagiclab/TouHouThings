@@ -1,9 +1,10 @@
 {
-  "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
   "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
-  "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+  "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
   "item.touhouthings.izanagi_object": "Izanagi Object",
+  "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
   "item.minecraft.potion.effect.gsws": "国士无双之药",
+  "block.touhouthings.blocker": "防撞桶",
   "item.touhouthings.new_gohei": "御币",
   "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
   "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",

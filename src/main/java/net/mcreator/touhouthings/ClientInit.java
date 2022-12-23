@@ -13,6 +13,7 @@
 package net.mcreator.touhouthings;
 
 import net.mcreator.touhouthings.init.TouhouthingsModEntityRenderers;
+import net.mcreator.touhouthings.init.TouhouthingsModBlocks;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
@@ -22,6 +23,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		TouhouthingsModBlocks.clientLoad();
 
 		TouhouthingsModEntityRenderers.load();
 	}

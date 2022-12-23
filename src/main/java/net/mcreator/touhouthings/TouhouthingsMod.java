@@ -20,6 +20,7 @@ import net.mcreator.touhouthings.init.TouhouthingsModPotions;
 import net.mcreator.touhouthings.init.TouhouthingsModItems;
 import net.mcreator.touhouthings.init.TouhouthingsModEntities;
 import net.mcreator.touhouthings.init.TouhouthingsModBrewingRecipes;
+import net.mcreator.touhouthings.init.TouhouthingsModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -35,7 +36,7 @@ public class TouhouthingsMod implements ModInitializer {
 		TouhouthingsModPotions.load();
 
 		TouhouthingsModEntities.load();
-
+		TouhouthingsModBlocks.load();
 		TouhouthingsModItems.load();
 
 		TouhouthingsModBrewingRecipes.load();
