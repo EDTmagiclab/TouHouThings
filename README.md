@@ -1,6 +1,14 @@
-# TouHouThings
+# 东方物品
 
 来为你的minecraft添加一点比较东方的东西吧！
+
+为运行此mod，你需要
+
+  ·Minecraft Java 1.19.2（必须）
+  
+  ·Fabric API（必须）
+  
+  ·啤酒（可选项）
 
 目前已有的物品有：
 
