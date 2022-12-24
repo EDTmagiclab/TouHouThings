@@ -14,9 +14,9 @@
       "value": "CUSTOM:TouhouThings"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
-    "efficiency": 8.0,
-    "attackSpeed": 1.0,
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 2.0,
     "enchantability": 18,
     "damageVsEntity": 4.0,
     "usageCount": 750,

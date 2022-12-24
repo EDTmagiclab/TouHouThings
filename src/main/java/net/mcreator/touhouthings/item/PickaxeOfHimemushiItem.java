@@ -26,7 +26,7 @@ public class PickaxeOfHimemushiItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 8f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -34,7 +34,7 @@ public class PickaxeOfHimemushiItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
@@ -44,7 +44,7 @@ public class PickaxeOfHimemushiItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TouhouthingsModItems.IZANAGI_OBJECT));
 			}
-		}, 1, -3f, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS));
+		}, 1, -2f, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS));
 	}
 
 	@Override
