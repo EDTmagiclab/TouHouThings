@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "izanagmetal",
+    "texture": "izanagiobject",
     "customModelName": "Normal",
     "name": "伊奘诺合金",
     "rarity": "COMMON",

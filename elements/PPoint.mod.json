@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ppoint",
+    "texture": "ppower",
     "customModelName": "Normal",
     "name": "P点",
     "rarity": "COMMON",

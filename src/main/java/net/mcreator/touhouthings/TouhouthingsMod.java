@@ -17,12 +17,10 @@ import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.touhouthings.init.TouhouthingsModTabs;
 import net.mcreator.touhouthings.init.TouhouthingsModPotions;
-import net.mcreator.touhouthings.init.TouhouthingsModMenus;
 import net.mcreator.touhouthings.init.TouhouthingsModItems;
 import net.mcreator.touhouthings.init.TouhouthingsModEntities;
 import net.mcreator.touhouthings.init.TouhouthingsModBrewingRecipes;
 import net.mcreator.touhouthings.init.TouhouthingsModBlocks;
-import net.mcreator.touhouthings.init.TouhouthingsModBlockEntities;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -40,9 +38,6 @@ public class TouhouthingsMod implements ModInitializer {
 		TouhouthingsModEntities.load();
 		TouhouthingsModBlocks.load();
 		TouhouthingsModItems.load();
-		TouhouthingsModBlockEntities.load();
-
-		TouhouthingsModMenus.load();
 
 		TouhouthingsModBrewingRecipes.load();
 

@@ -12,7 +12,6 @@
 */
 package net.mcreator.touhouthings;
 
-import net.mcreator.touhouthings.init.TouhouthingsModScreens;
 import net.mcreator.touhouthings.init.TouhouthingsModEntityRenderers;
 import net.mcreator.touhouthings.init.TouhouthingsModBlocks;
 
@@ -26,7 +25,6 @@ public class ClientInit implements ClientModInitializer {
 	public void onInitializeClient() {
 
 		TouhouthingsModBlocks.clientLoad();
-		TouhouthingsModScreens.load();
 
 		TouhouthingsModEntityRenderers.load();
 	}

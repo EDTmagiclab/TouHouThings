@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ironstick",
+    "texture": "ironstick2",
     "customModelName": "Normal",
     "name": "铁条",
     "rarity": "COMMON",

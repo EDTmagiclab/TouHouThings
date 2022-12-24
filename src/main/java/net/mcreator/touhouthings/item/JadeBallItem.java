@@ -97,7 +97,7 @@ public class JadeBallItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					JadeBallEntity entityarrow = JadeBallEntity.shoot(world, entity, world.getRandom(), 1f, 4, 2);
+					JadeBallEntity entityarrow = JadeBallEntity.shoot(world, entity, world.getRandom(), 1f, 5, 2);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

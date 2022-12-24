@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "tu_pian_1",
+    "texture": "yin_yang_yu_",
     "customModelName": "Normal",
     "name": "阴阳玉",
     "specialInfo": [
@@ -26,7 +26,7 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 4.0,
     "bulletPower": 1.0,
-    "bulletDamage": 4.0,
+    "bulletDamage": 5.0,
     "bulletKnockback": 2,
     "bulletParticles": false,
     "bulletIgnitesFire": false,

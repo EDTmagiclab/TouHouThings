@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "tu_pian_3",
+    "texture": "ba_gua_lu_",
     "customModelName": "Normal",
     "name": "迷你八卦炉",
     "specialInfo": [
