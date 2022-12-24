@@ -8,8 +8,10 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.touhouthings.procedures.Egg1Procedure;
 import net.mcreator.touhouthings.init.TouhouthingsModTabs;
 
 import net.fabricmc.api.Environment;
@@ -44,6 +46,17 @@ public class NewGoheiItem extends SwordItem {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2f, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS));
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		Level world = entity.level;
+		Egg1Procedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		return retval;
 	}
 
 	@Override

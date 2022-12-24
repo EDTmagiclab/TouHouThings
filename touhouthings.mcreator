@@ -263,16 +263,32 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_money_chest"
+    },
+    {
+      "name": "Egg1",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
-      "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
       "block.touhouthings.blocker": "防撞桶",
       "item.touhouthings.new_gohei": "御币",
