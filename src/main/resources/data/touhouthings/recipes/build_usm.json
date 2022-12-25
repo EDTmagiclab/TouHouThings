@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "touhouthings:empty_disc"
+  },
+  "addition": {
+    "item": "minecraft:feather"
+  },
+  "result": {
+    "item": "touhouthings:undying_smoke"
+  }
+}

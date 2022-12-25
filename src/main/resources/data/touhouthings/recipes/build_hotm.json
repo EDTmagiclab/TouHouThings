@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "touhouthings:empty_disc"
+  },
+  "addition": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "item": "touhouthings:history_of_the_moon"
+  }
+}

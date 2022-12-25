@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "Items.COAL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmptyDisc"
+    },
+    "name": "build_empty_disc",
+    "namespace": "mod"
+  }
+}

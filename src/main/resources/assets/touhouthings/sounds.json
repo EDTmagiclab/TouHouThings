@@ -1,0 +1,42 @@
+{
+  "lunatcprincess": {
+    "category": "music",
+    "subtitle": "subtitles.lunatcprincess",
+    "sounds": [
+      {
+        "name": "touhouthings:th08_15",
+        "stream": true
+      }
+    ]
+  },
+  "undyingsmoke": {
+    "category": "music",
+    "subtitle": "subtitles.undyingsmoke",
+    "sounds": [
+      {
+        "name": "touhouthings:busizhiyan",
+        "stream": true
+      }
+    ]
+  },
+  "historyofthemoon": {
+    "category": "music",
+    "subtitle": "subtitles.historyofthemoon",
+    "sounds": [
+      {
+        "name": "touhouthings:historyofthemoon",
+        "stream": true
+      }
+    ]
+  },
+  "masterspark": {
+    "category": "music",
+    "subtitle": "subtitles.masterspark",
+    "sounds": [
+      {
+        "name": "touhouthings:asterspark",
+        "stream": true
+      }
+    ]
+  }
+}

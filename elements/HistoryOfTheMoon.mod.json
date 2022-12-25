@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "千年幻想乡~History Of The Moon",
+    "texture": "historyofthemoon",
+    "description": "八意永琳的主题曲",
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "specialInfo": [
+      "原作：上海爱丽丝幻乐团"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:historyofthemoon"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

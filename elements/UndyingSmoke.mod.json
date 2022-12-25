@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "飘上月球 不死之烟",
+    "texture": "undyingsomke",
+    "description": "藤原妹红的主题曲",
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "specialInfo": [
+      "原作：上海爱丽丝幻乐团"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:undyingsmoke"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

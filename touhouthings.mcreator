@@ -383,6 +383,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "eel_bbq"
+    },
+    {
+      "name": "LunaticPrincess",
+      "type": "musicdisc",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunatic_princess"
+    },
+    {
+      "name": "EmptyDisc",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_disc"
+    },
+    {
+      "name": "BuildLP",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_lp"
+    },
+    {
+      "name": "BuildEmptyDisc",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_empty_disc"
+    },
+    {
+      "name": "UndyingSmoke",
+      "type": "musicdisc",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undying_smoke"
+    },
+    {
+      "name": "BuildUSM",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_usm"
+    },
+    {
+      "name": "HistoryOfTheMoon",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "history_of_the_moon"
+    },
+    {
+      "name": "BuildHOTM",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_hotm"
+    },
+    {
+      "name": "MasterSpark1",
+      "type": "musicdisc",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_spark_1"
+    },
+    {
+      "name": "BuildMSP",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_msp"
     }
   ],
   "variable_elements": [
@@ -393,49 +473,95 @@
       "value": "0.0"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "lunatcprincess",
+      "files": [
+        "th08_15"
+      ],
+      "category": "music",
+      "subtitle": "竹取飞翔~LunaticPrincess"
+    },
+    {
+      "name": "undyingsmoke",
+      "files": [
+        "busizhiyan"
+      ],
+      "category": "music",
+      "subtitle": "上海爱丽丝幻乐团-飘上月球 不死之烟"
+    },
+    {
+      "name": "historyofthemoon",
+      "files": [
+        "historyofthemoon"
+      ],
+      "category": "music",
+      "subtitle": "千年幻想乡"
+    },
+    {
+      "name": "masterspark",
+      "files": [
+        "asterspark"
+      ],
+      "category": "music",
+      "subtitle": "恋色MasterSpark"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.touhouthings.eel": "生八目鳗肉",
+      "advancements.shot.title": "弹幕规则的诞生",
+      "item.touhouthings.bbq_eel": "烤八目鳗",
+      "item.touhouthings.master_spark_1.desc": "魔理沙的主题曲（永夜抄版本）",
+      "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
+      "advancements.master_spark.descr": "获取一个迷你八卦炉",
+      "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
+      "advancements.miner.descr": "制作一把百百世之镐",
+      "subtitles.historyofthemoon": "千年幻想乡",
+      "item.touhouthings.history_of_the_moon.desc": "八意永琳的主题曲",
+      "block.touhouthings.money_chest": "赛钱箱",
+      "advancements.miner.title": "采矿爱好者",
+      "item.touhouthings.izanagi_metal": "伊奘诺合金",
+      "subtitles.undyingsmoke": "上海爱丽丝幻乐团-飘上月球 不死之烟",
+      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
+      "advancements.konpaku.descr": "获取一把楼观剑",
+      "advancements.start.descr": "获取一个阴阳玉",
+      "item.touhouthings.empty_disc": "空白唱片",
+      "item.touhouthings.magic_neddle": "Magic Neddle",
+      "item.touhouthings.lunatic_princess.desc": "蓬莱山辉夜的主题曲",
+      "itemGroup.touhouthings.touhou_things": "东方物品",
+      "item.touhouthings.p_point": "P点",
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
       "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "advancements.gohei.descr": "获得一把御币",
       "advancements.izanagi.title": "阴阳玉的起源",
-      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
-      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
       "block.touhouthings.blocker": "防撞桶",
-      "item.touhouthings.eel": "生八目鳗肉",
       "item.touhouthings.new_gohei": "御币",
-      "advancements.shot.title": "弹幕规则的诞生",
       "advancements.gohei.title": "巫女的武器",
-      "item.touhouthings.bbq_eel": "烤八目鳗",
       "advancements.izanagi.descr": "合成一块伊奘诺物质",
-      "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
-      "advancements.master_spark.descr": "获取一个迷你八卦炉",
-      "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
       "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
-      "advancements.miner.descr": "制作一把百百世之镐",
-      "block.touhouthings.money_chest": "赛钱箱",
+      "subtitles.masterspark": "恋色MasterSpark",
       "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
-      "advancements.miner.title": "采矿爱好者",
-      "item.touhouthings.izanagi_metal": "伊奘诺合金",
+      "subtitles.lunatcprincess": "竹取飞翔~LunaticPrincess",
+      "item.touhouthings.master_spark_1": "恋色Master Spark",
       "item.touhouthings.ironstick": "铁条",
       "advancements.master_spark.title": "MasterSpark",
       "advancements.shot.descr": "消耗一个P点发射弹幕",
-      "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
       "item.touhouthings.ba_gua_stove": "迷你八卦炉",
       "advancements.konpaku.title": "六根清净斩",
-      "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
       "advancements.start.title": "故事的开始",
       "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
-      "advancements.konpaku.descr": "获取一把楼观剑",
-      "advancements.start.descr": "获取一个阴阳玉",
-      "item.touhouthings.magic_neddle": "Magic Neddle",
       "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
       "item.touhouthings.jade_ball": "阴阳玉",
-      "itemGroup.touhouthings.touhou_things": "东方物品",
+      "item.touhouthings.lunatic_princess": "竹取飞翔~Lunatic Princess",
       "item.touhouthings.konpaku_sword": "楼观剑",
-      "item.touhouthings.p_point": "P点",
+      "item.touhouthings.history_of_the_moon": "千年幻想乡~History Of The Moon",
+      "item.touhouthings.undying_smoke": "飘上月球 不死之烟",
+      "item.touhouthings.undying_smoke.desc": "藤原妹红的主题曲",
       "item.minecraft.splash_potion.effect.gsws": "喷溅型国士无双之药",
       "item.minecraft.lingering_potion.effect.gsws": "滞留型国士无双之药"
     }

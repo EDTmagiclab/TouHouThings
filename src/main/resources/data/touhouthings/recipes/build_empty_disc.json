@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:coals"
+    },
+    "1": {
+      "tag": "minecraft:coals"
+    },
+    "2": {
+      "tag": "minecraft:coals"
+    },
+    "3": {
+      "tag": "minecraft:coals"
+    },
+    "5": {
+      "tag": "minecraft:coals"
+    },
+    "6": {
+      "tag": "minecraft:coals"
+    },
+    "7": {
+      "tag": "minecraft:coals"
+    },
+    "8": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "touhouthings:empty_disc",
+    "count": 1
+  }
+}

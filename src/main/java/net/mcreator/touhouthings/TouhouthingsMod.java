@@ -17,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.touhouthings.network.TouhouthingsModVariables;
 import net.mcreator.touhouthings.init.TouhouthingsModTabs;
+import net.mcreator.touhouthings.init.TouhouthingsModSounds;
 import net.mcreator.touhouthings.init.TouhouthingsModProcedures;
 import net.mcreator.touhouthings.init.TouhouthingsModPotions;
 import net.mcreator.touhouthings.init.TouhouthingsModItems;
@@ -44,7 +45,7 @@ public class TouhouthingsMod implements ModInitializer {
 		TouhouthingsModProcedures.load();
 
 		TouhouthingsModBrewingRecipes.load();
-
+		TouhouthingsModSounds.load();
 		TouhouthingsModVariables.SyncJoin();
 		TouhouthingsModVariables.SyncChangeWorld();
 	}

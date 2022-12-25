@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "touhouthings:empty_disc"
+  },
+  "addition": {
+    "item": "minecraft:bamboo"
+  },
+  "result": {
+    "item": "touhouthings:lunatic_princess"
+  }
+}
