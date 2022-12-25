@@ -19,7 +19,9 @@ import net.mcreator.touhouthings.item.JadeBallItem;
 import net.mcreator.touhouthings.item.IzanagiObjectItem;
 import net.mcreator.touhouthings.item.IzanagiMetalItem;
 import net.mcreator.touhouthings.item.IronstickItem;
+import net.mcreator.touhouthings.item.EelItem;
 import net.mcreator.touhouthings.item.BaGuaStoveItem;
+import net.mcreator.touhouthings.item.BBQEelItem;
 import net.mcreator.touhouthings.TouhouthingsMod;
 
 public class TouhouthingsModItems {
@@ -36,6 +38,8 @@ public class TouhouthingsModItems {
 	public static Item P_POINT;
 	public static Item BLOCKER;
 	public static Item MONEY_CHEST;
+	public static Item EEL;
+	public static Item BBQ_EEL;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -55,5 +59,7 @@ public class TouhouthingsModItems {
 				new BlockItem(TouhouthingsModBlocks.BLOCKER, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS)));
 		MONEY_CHEST = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "money_chest"),
 				new BlockItem(TouhouthingsModBlocks.MONEY_CHEST, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS)));
+		EEL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "eel"), new EelItem());
+		BBQ_EEL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "bbq_eel"), new BBQEelItem());
 	}
 }

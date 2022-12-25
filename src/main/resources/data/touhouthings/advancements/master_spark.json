@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "touhouthings:ba_gua_stove"
+    },
+    "title": {
+      "translate": "advancements.master_spark.title"
+    },
+    "description": {
+      "translate": "advancements.master_spark.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "master_spark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "touhouthings:ba_gua_stove"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "touhouthings:start"
+}

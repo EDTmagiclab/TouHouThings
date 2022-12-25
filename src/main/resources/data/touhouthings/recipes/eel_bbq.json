@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "touhouthings:eel"
+  },
+  "result": "touhouthings:bbq_eel"
+}

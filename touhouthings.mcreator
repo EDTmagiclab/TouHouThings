@@ -279,30 +279,157 @@
           }
         ]
       }
+    },
+    {
+      "name": "Start",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start"
+    },
+    {
+      "name": "Shot",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shot"
+    },
+    {
+      "name": "Gohei",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gohei"
+    },
+    {
+      "name": "Konpaku",
+      "type": "achievement",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "konpaku"
+    },
+    {
+      "name": "Izanagi",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "izanagi"
+    },
+    {
+      "name": "Miner",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner"
+    },
+    {
+      "name": "MasterSpark",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_spark"
+    },
+    {
+      "name": "Eel",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eel"
+    },
+    {
+      "name": "Eelthings",
+      "type": "loottable",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eelthings"
+    },
+    {
+      "name": "BBQEel",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbq_eel"
+    },
+    {
+      "name": "NV",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nv",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EelBBQ",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eel_bbq"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "gswsbomb",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
       "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
+      "advancements.gohei.descr": "获得一把御币",
+      "advancements.izanagi.title": "阴阳玉的起源",
       "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
       "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
       "block.touhouthings.blocker": "防撞桶",
+      "item.touhouthings.eel": "生八目鳗肉",
       "item.touhouthings.new_gohei": "御币",
+      "advancements.shot.title": "弹幕规则的诞生",
+      "advancements.gohei.title": "巫女的武器",
+      "item.touhouthings.bbq_eel": "烤八目鳗",
+      "advancements.izanagi.descr": "合成一块伊奘诺物质",
       "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
+      "advancements.master_spark.descr": "获取一个迷你八卦炉",
       "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
       "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
+      "advancements.miner.descr": "制作一把百百世之镐",
       "block.touhouthings.money_chest": "赛钱箱",
       "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
+      "advancements.miner.title": "采矿爱好者",
       "item.touhouthings.izanagi_metal": "伊奘诺合金",
       "item.touhouthings.ironstick": "铁条",
+      "advancements.master_spark.title": "MasterSpark",
+      "advancements.shot.descr": "消耗一个P点发射弹幕",
       "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
       "item.touhouthings.ba_gua_stove": "迷你八卦炉",
+      "advancements.konpaku.title": "六根清净斩",
       "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
+      "advancements.start.title": "故事的开始",
       "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
+      "advancements.konpaku.descr": "获取一把楼观剑",
+      "advancements.start.descr": "获取一个阴阳玉",
       "item.touhouthings.magic_neddle": "Magic Neddle",
       "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
       "item.touhouthings.jade_ball": "阴阳玉",

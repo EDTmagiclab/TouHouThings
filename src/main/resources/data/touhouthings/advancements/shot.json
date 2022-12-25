@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "touhouthings:p_point"
+    },
+    "title": {
+      "translate": "advancements.shot.title"
+    },
+    "description": {
+      "translate": "advancements.shot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "touhouthings:p_point"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "touhouthings:start"
+}
