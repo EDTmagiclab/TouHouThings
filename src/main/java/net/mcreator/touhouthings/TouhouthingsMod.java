@@ -20,6 +20,7 @@ import net.mcreator.touhouthings.init.TouhouthingsModTabs;
 import net.mcreator.touhouthings.init.TouhouthingsModSounds;
 import net.mcreator.touhouthings.init.TouhouthingsModProcedures;
 import net.mcreator.touhouthings.init.TouhouthingsModPotions;
+import net.mcreator.touhouthings.init.TouhouthingsModPaintings;
 import net.mcreator.touhouthings.init.TouhouthingsModItems;
 import net.mcreator.touhouthings.init.TouhouthingsModEntities;
 import net.mcreator.touhouthings.init.TouhouthingsModBrewingRecipes;
@@ -42,6 +43,7 @@ public class TouhouthingsMod implements ModInitializer {
 		TouhouthingsModBlocks.load();
 		TouhouthingsModItems.load();
 
+		TouhouthingsModPaintings.load();
 		TouhouthingsModProcedures.load();
 
 		TouhouthingsModBrewingRecipes.load();

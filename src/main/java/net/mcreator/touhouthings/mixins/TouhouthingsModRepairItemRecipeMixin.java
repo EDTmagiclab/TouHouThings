@@ -9,6 +9,8 @@ import net.minecraft.world.item.crafting.RepairItemRecipe;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.CraftingContainer;
 
+import net.mcreator.touhouthings.init.TouhouthingsModItems;
+
 import java.util.ArrayList;
 
 import com.google.common.collect.Lists;
@@ -26,6 +28,9 @@ public abstract class TouhouthingsModRepairItemRecipeMixin {
 			if (itemStack.isEmpty())
 				continue;
 			list.add(itemStack);
+		}
+		if ((itemStack3 = (ItemStack) list.get(0)).is((TouhouthingsModItems.BULLET_TOOL))) {
+			cir.setReturnValue(ItemStack.EMPTY);
 		}
 	}
 }

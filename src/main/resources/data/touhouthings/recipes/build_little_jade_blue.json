@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_dye"
+    },
+    "1": {
+      "item": "touhouthings:bullet_tool"
+    },
+    "2": {
+      "item": "touhouthings:izanagi_object"
+    }
+  },
+  "result": {
+    "item": "touhouthings:little_jade_blue",
+    "count": 2
+  }
+}

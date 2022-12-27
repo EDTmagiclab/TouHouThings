@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "minecraft:black_wool"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:yellow_wool"
+    },
+    "4": {
+      "item": "minecraft:iron_helmet"
+    },
+    "5": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "touhouthings:hat_of_koishi_helmet",
+    "count": 1
+  }
+}

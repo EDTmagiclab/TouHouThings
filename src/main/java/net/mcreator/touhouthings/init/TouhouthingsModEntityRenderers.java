@@ -15,5 +15,17 @@ public class TouhouthingsModEntityRenderers {
 	public static void load() {
 		EntityRendererRegistry.register(TouhouthingsModEntities.JADE_BALL, ThrownItemRenderer::new);
 		EntityRendererRegistry.register(TouhouthingsModEntities.BA_GUA_STOVE, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE_BLUE, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE_RED_1X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE_BLUE_1X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE_RED_2X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.LITTLE_JADE_BLUE_2X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_RED, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_BLUE, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_RED_1X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_BLUE_1X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_2X, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_BLUE_2X, ThrownItemRenderer::new);
 	}
 }

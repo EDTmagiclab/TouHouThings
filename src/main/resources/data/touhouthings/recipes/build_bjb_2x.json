@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "touhouthings:big_jade_blue_1x"
+    },
+    "1": {
+      "item": "touhouthings:bullet_tool"
+    },
+    "2": {
+      "item": "touhouthings:p_point"
+    }
+  },
+  "result": {
+    "item": "touhouthings:big_jade_blue_2x",
+    "count": 1
+  }
+}

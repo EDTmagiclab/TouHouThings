@@ -1,0 +1,37 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spoon",
+    "customModelName": "Normal",
+    "name": "勺子",
+    "specialInfo": [
+      "饕餮尤魔的勺子",
+      "我能去你家吃饭吗？就一勺"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 5,
+    "damageVsEntity": 0.5,
+    "usageCount": 375,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IzanagiObject"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "Bblood"
+    }
+  }
+}

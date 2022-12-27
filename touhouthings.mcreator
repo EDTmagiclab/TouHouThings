@@ -463,6 +463,308 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_msp"
+    },
+    {
+      "name": "DreamBattle",
+      "type": "musicdisc",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_battle"
+    },
+    {
+      "name": "BuildDB",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_db"
+    },
+    {
+      "name": "Bblood",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bblood",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spoon",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spoon"
+    },
+    {
+      "name": "LittleJade",
+      "type": "rangeditem",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade"
+    },
+    {
+      "name": "LittleJadeBlue",
+      "type": "rangeditem",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade_blue"
+    },
+    {
+      "name": "LittleJadeRed1x",
+      "type": "rangeditem",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade_red_1x"
+    },
+    {
+      "name": "LittleJadeBlue1x",
+      "type": "rangeditem",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade_blue_1x"
+    },
+    {
+      "name": "LittleJadeRed2x",
+      "type": "rangeditem",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade_red_2x"
+    },
+    {
+      "name": "LittleJadeBlue2x",
+      "type": "rangeditem",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_jade_blue_2x"
+    },
+    {
+      "name": "Logo",
+      "type": "painting",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo"
+    },
+    {
+      "name": "Koishi",
+      "type": "painting",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi"
+    },
+    {
+      "name": "BigJadeRed",
+      "type": "rangeditem",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_red"
+    },
+    {
+      "name": "BigJadeBlue",
+      "type": "rangeditem",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_blue"
+    },
+    {
+      "name": "BigJadeRed1x",
+      "type": "rangeditem",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_red_1x"
+    },
+    {
+      "name": "BigJadeBlue1x",
+      "type": "rangeditem",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_blue_1x"
+    },
+    {
+      "name": "BigJade2x",
+      "type": "rangeditem",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_2x"
+    },
+    {
+      "name": "BigJadeBlue2x",
+      "type": "rangeditem",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_jade_blue_2x"
+    },
+    {
+      "name": "BulletTool",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_tool"
+    },
+    {
+      "name": "BuildBulletTool",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bullet_tool"
+    },
+    {
+      "name": "BuildLittleJade",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_little_jade"
+    },
+    {
+      "name": "BuildLittleJadeBlue",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_little_jade_blue"
+    },
+    {
+      "name": "BuildLJR1x",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_ljr_1x"
+    },
+    {
+      "name": "BuildLJB1x",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_ljb_1x"
+    },
+    {
+      "name": "BuildLJR2x",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_ljr_2x"
+    },
+    {
+      "name": "BuildLJB2x",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_ljb_2x"
+    },
+    {
+      "name": "BuildBJR",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjr"
+    },
+    {
+      "name": "BuildBJB",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjb"
+    },
+    {
+      "name": "BuildBJR1x",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjr_1x"
+    },
+    {
+      "name": "BuildBJB1x",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjb_1x"
+    },
+    {
+      "name": "BuildBJR2x",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjr_2x"
+    },
+    {
+      "name": "BuildBJB2x",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_bjb_2x"
+    },
+    {
+      "name": "HatOfKoish",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hat_of_koish",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HatOfKoishi",
+      "type": "armor",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hat_of_koishi",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "BuildHatOfKoishi",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_hat_of_koishi"
     }
   ],
   "variable_elements": [
@@ -505,48 +807,74 @@
       ],
       "category": "music",
       "subtitle": "恋色MasterSpark"
+    },
+    {
+      "name": "dreambattle",
+      "files": [
+        "dreambattle"
+      ],
+      "category": "music",
+      "subtitle": "少女绮想曲~Dream Battle"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
       "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
       "item.touhouthings.eel": "生八目鳗肉",
+      "item.touhouthings.hat_of_koishi_helmet": "恋恋帽子",
       "advancements.shot.title": "弹幕规则的诞生",
       "item.touhouthings.bbq_eel": "烤八目鳗",
+      "item.touhouthings.big_jade_blue_1x": "蓝色大玉1x",
+      "item.touhouthings.little_jade_blue_1x": "蓝色小玉1x",
       "item.touhouthings.master_spark_1.desc": "魔理沙的主题曲（永夜抄版本）",
       "item.touhouthings.pickaxe_of_himemushi": "百百世之镐",
       "advancements.master_spark.descr": "获取一个迷你八卦炉",
       "item.minecraft.splash_potion.effect.gswsmax": "喷溅型国士无双MAX",
-      "advancements.miner.descr": "制作一把百百世之镐",
       "subtitles.historyofthemoon": "千年幻想乡",
+      "advancements.miner.descr": "制作一把百百世之镐",
       "item.touhouthings.history_of_the_moon.desc": "八意永琳的主题曲",
       "block.touhouthings.money_chest": "赛钱箱",
+      "item.touhouthings.bullet_tool": "弹幕核心",
       "advancements.miner.title": "采矿爱好者",
       "item.touhouthings.izanagi_metal": "伊奘诺合金",
+      "subtitles.dreambattle": "少女绮想曲~Dream Battle",
       "subtitles.undyingsmoke": "上海爱丽丝幻乐团-飘上月球 不死之烟",
+      "item.touhouthings.big_jade_red": "红色大玉",
       "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
+      "item.touhouthings.dream_battle.desc": "博丽灵梦的主题曲",
       "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
       "advancements.konpaku.descr": "获取一把楼观剑",
       "advancements.start.descr": "获取一个阴阳玉",
       "item.touhouthings.empty_disc": "空白唱片",
+      "item.touhouthings.little_jade_red_1x": "红色小玉1x",
       "item.touhouthings.magic_neddle": "Magic Neddle",
       "item.touhouthings.lunatic_princess.desc": "蓬莱山辉夜的主题曲",
+      "item.touhouthings.little_jade_blue_2x": "蓝色小玉2x",
       "itemGroup.touhouthings.touhou_things": "东方物品",
       "item.touhouthings.p_point": "P点",
+      "item.touhouthings.hat_of_koishi_leggings": "Hat Of Koishi 护腿",
+      "item.touhouthings.hat_of_koishi_boots": "Hat Of Koishi 靴子",
+      "item.touhouthings.hat_of_koishi_chestplate": "Hat Of Koishi 胸甲",
       "item.minecraft.lingering_potion.effect.hourai_poison": "滞留型蓬莱药",
       "item.minecraft.tipped_arrow.effect.gsws": "永琳的国士无双药箭",
       "advancements.gohei.descr": "获得一把御币",
       "advancements.izanagi.title": "阴阳玉的起源",
       "item.minecraft.potion.effect.gsws": "国士无双之药",
+      "item.touhouthings.dream_battle": "少女绮想曲~Dream Battle",
       "block.touhouthings.blocker": "防撞桶",
+      "item.touhouthings.big_jade_2x": "红色大玉2x",
       "item.touhouthings.new_gohei": "御币",
       "advancements.gohei.title": "巫女的武器",
+      "item.touhouthings.big_jade_blue": "蓝色大玉",
       "advancements.izanagi.descr": "合成一块伊奘诺物质",
+      "item.touhouthings.little_jade_red_2x": "红色小玉2x",
+      "item.touhouthings.little_jade_blue": "蓝色小玉",
       "item.minecraft.tipped_arrow.effect.gswsmax": "永琳的国士无双MAX药箭",
       "subtitles.masterspark": "恋色MasterSpark",
       "item.minecraft.potion.effect.hourai_poison": "蓬莱药",
       "subtitles.lunatcprincess": "竹取飞翔~LunaticPrincess",
+      "item.touhouthings.little_jade": "红色小玉",
       "item.touhouthings.master_spark_1": "恋色Master Spark",
       "item.touhouthings.ironstick": "铁条",
       "advancements.master_spark.title": "MasterSpark",
@@ -554,8 +882,11 @@
       "item.touhouthings.ba_gua_stove": "迷你八卦炉",
       "advancements.konpaku.title": "六根清净斩",
       "advancements.start.title": "故事的开始",
+      "item.touhouthings.big_jade_red_1x": "红色大玉",
       "item.minecraft.lingering_potion.effect.gswsmax": "滞留型国士无双MAX",
+      "item.touhouthings.spoon": "勺子",
       "item.minecraft.tipped_arrow.effect.hourai_poison": "蓬莱药箭",
+      "item.touhouthings.big_jade_blue_2x": "蓝色大玉2x",
       "item.touhouthings.jade_ball": "阴阳玉",
       "item.touhouthings.lunatic_princess": "竹取飞翔~Lunatic Princess",
       "item.touhouthings.konpaku_sword": "楼观剑",

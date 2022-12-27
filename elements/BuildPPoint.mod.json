@@ -2,45 +2,22 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Brewing",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Blocks.TNT"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      },
-      {
-        "value": "Items.GLASS_BOTTLE"
-      }
-    ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:PPoint"
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:GSWSMAX"
     },
-    "name": "build_p_point",
+    "brewingIngredientStack": {
+      "value": "Items.GLOWSTONE_DUST"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:GSWS"
+    },
+    "name": "build_gswsmax",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "touhouthings:little_jade"
+    },
+    "2": {
+      "item": "touhouthings:little_jade"
+    },
+    "4": {
+      "item": "touhouthings:bullet_tool"
+    },
+    "7": {
+      "item": "touhouthings:p_point"
+    }
+  },
+  "result": {
+    "item": "touhouthings:little_jade_red_1x",
+    "count": 1
+  }
+}

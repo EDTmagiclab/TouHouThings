@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.REDSTONE"
+        "value": ""
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": ""
       },
       {
-        "value": "CUSTOM:IzanagiObject"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": ""
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "CUSTOM:Ironstick"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:JadeBall"
+      "value": "CUSTOM:SakataWoodKnife"
     },
-    "name": "build_jade_ball",
+    "name": "build_sakata_knife",
     "namespace": "mod"
   }
 }

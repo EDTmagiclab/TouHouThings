@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "touhouthings:little_jade"
+    },
+    "1": {
+      "item": "touhouthings:little_jade"
+    },
+    "2": {
+      "item": "touhouthings:little_jade"
+    },
+    "3": {
+      "item": "touhouthings:little_jade"
+    },
+    "4": {
+      "item": "touhouthings:bullet_tool"
+    },
+    "5": {
+      "item": "touhouthings:little_jade"
+    },
+    "6": {
+      "item": "touhouthings:little_jade"
+    },
+    "7": {
+      "item": "touhouthings:little_jade"
+    },
+    "8": {
+      "item": "touhouthings:little_jade"
+    }
+  },
+  "result": {
+    "item": "touhouthings:big_jade_red",
+    "count": 2
+  }
+}

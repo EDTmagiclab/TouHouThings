@@ -38,5 +38,15 @@
         "stream": true
       }
     ]
+  },
+  "dreambattle": {
+    "category": "music",
+    "subtitle": "subtitles.dreambattle",
+    "sounds": [
+      {
+        "name": "touhouthings:dreambattle",
+        "stream": true
+      }
+    ]
   }
 }

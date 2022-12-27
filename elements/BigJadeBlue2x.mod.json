@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "bjb2",
+    "customModelName": "Normal",
+    "name": "蓝色大玉2x",
+    "specialInfo": [
+      "较大的玉",
+      "弹速2x"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:PPoint"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BigJadeBlue"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

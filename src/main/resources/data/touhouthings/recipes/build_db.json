@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "touhouthings:empty_disc"
+  },
+  "addition": {
+    "item": "touhouthings:jade_ball"
+  },
+  "result": {
+    "item": "touhouthings:dream_battle"
+  }
+}

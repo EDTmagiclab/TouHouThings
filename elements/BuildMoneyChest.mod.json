@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.WOODEN_SLAB"
-      },
-      {
-        "value": "Blocks.WOODEN_SLAB"
-      },
-      {
-        "value": "Blocks.WOODEN_SLAB"
-      },
-      {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": ""
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": ""
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MoneyChest"
+      "value": "CUSTOM:Ironstick"
     },
-    "name": "build_money_chest",
+    "name": "build_iron_stick",
     "namespace": "mod"
   }
 }

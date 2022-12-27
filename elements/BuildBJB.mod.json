@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:BulletTool"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      },
+      {
+        "value": "CUSTOM:LittleJadeBlue"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BigJadeBlue"
+    },
+    "name": "build_bjb",
+    "namespace": "mod"
+  }
+}

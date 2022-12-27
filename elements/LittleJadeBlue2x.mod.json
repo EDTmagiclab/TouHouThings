@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "ljb2x",
+    "customModelName": "Normal",
+    "name": "蓝色小玉2x",
+    "specialInfo": [
+      "经典的红色子弹",
+      "弹速1x"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:PPoint"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:LittleJadeBlue"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

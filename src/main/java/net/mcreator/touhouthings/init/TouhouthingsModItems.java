@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
 import net.mcreator.touhouthings.item.UndyingSmokeItem;
+import net.mcreator.touhouthings.item.SpoonItem;
 import net.mcreator.touhouthings.item.SakataWoodKnifeItem;
 import net.mcreator.touhouthings.item.PickaxeOfHimemushiItem;
 import net.mcreator.touhouthings.item.PPointItem;
@@ -17,14 +18,29 @@ import net.mcreator.touhouthings.item.NewGoheiItem;
 import net.mcreator.touhouthings.item.MasterSpark1Item;
 import net.mcreator.touhouthings.item.MagicNeddleItem;
 import net.mcreator.touhouthings.item.LunaticPrincessItem;
+import net.mcreator.touhouthings.item.LittleJadeRed2xItem;
+import net.mcreator.touhouthings.item.LittleJadeRed1xItem;
+import net.mcreator.touhouthings.item.LittleJadeItem;
+import net.mcreator.touhouthings.item.LittleJadeBlueItem;
+import net.mcreator.touhouthings.item.LittleJadeBlue2xItem;
+import net.mcreator.touhouthings.item.LittleJadeBlue1xItem;
 import net.mcreator.touhouthings.item.KonpakuSwordItem;
 import net.mcreator.touhouthings.item.JadeBallItem;
 import net.mcreator.touhouthings.item.IzanagiObjectItem;
 import net.mcreator.touhouthings.item.IzanagiMetalItem;
 import net.mcreator.touhouthings.item.IronstickItem;
 import net.mcreator.touhouthings.item.HistoryOfTheMoonItem;
+import net.mcreator.touhouthings.item.HatOfKoishiItem;
 import net.mcreator.touhouthings.item.EmptyDiscItem;
 import net.mcreator.touhouthings.item.EelItem;
+import net.mcreator.touhouthings.item.DreamBattleItem;
+import net.mcreator.touhouthings.item.BulletToolItem;
+import net.mcreator.touhouthings.item.BigJadeRedItem;
+import net.mcreator.touhouthings.item.BigJadeRed1xItem;
+import net.mcreator.touhouthings.item.BigJadeBlueItem;
+import net.mcreator.touhouthings.item.BigJadeBlue2xItem;
+import net.mcreator.touhouthings.item.BigJadeBlue1xItem;
+import net.mcreator.touhouthings.item.BigJade2xItem;
 import net.mcreator.touhouthings.item.BaGuaStoveItem;
 import net.mcreator.touhouthings.item.BBQEelItem;
 import net.mcreator.touhouthings.TouhouthingsMod;
@@ -50,6 +66,22 @@ public class TouhouthingsModItems {
 	public static Item UNDYING_SMOKE;
 	public static Item HISTORY_OF_THE_MOON;
 	public static Item MASTER_SPARK_1;
+	public static Item DREAM_BATTLE;
+	public static Item SPOON;
+	public static Item LITTLE_JADE;
+	public static Item LITTLE_JADE_BLUE;
+	public static Item LITTLE_JADE_RED_1X;
+	public static Item LITTLE_JADE_BLUE_1X;
+	public static Item LITTLE_JADE_RED_2X;
+	public static Item LITTLE_JADE_BLUE_2X;
+	public static Item BIG_JADE_RED;
+	public static Item BIG_JADE_BLUE;
+	public static Item BIG_JADE_RED_1X;
+	public static Item BIG_JADE_BLUE_1X;
+	public static Item BIG_JADE_2X;
+	public static Item BIG_JADE_BLUE_2X;
+	public static Item BULLET_TOOL;
+	public static Item HAT_OF_KOISHI_HELMET;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -78,5 +110,27 @@ public class TouhouthingsModItems {
 		HISTORY_OF_THE_MOON = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "history_of_the_moon"),
 				new HistoryOfTheMoonItem());
 		MASTER_SPARK_1 = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "master_spark_1"), new MasterSpark1Item());
+		DREAM_BATTLE = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "dream_battle"), new DreamBattleItem());
+		SPOON = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "spoon"), new SpoonItem());
+		LITTLE_JADE = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade"), new LittleJadeItem());
+		LITTLE_JADE_BLUE = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade_blue"),
+				new LittleJadeBlueItem());
+		LITTLE_JADE_RED_1X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade_red_1x"),
+				new LittleJadeRed1xItem());
+		LITTLE_JADE_BLUE_1X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade_blue_1x"),
+				new LittleJadeBlue1xItem());
+		LITTLE_JADE_RED_2X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade_red_2x"),
+				new LittleJadeRed2xItem());
+		LITTLE_JADE_BLUE_2X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "little_jade_blue_2x"),
+				new LittleJadeBlue2xItem());
+		BIG_JADE_RED = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_red"), new BigJadeRedItem());
+		BIG_JADE_BLUE = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_blue"), new BigJadeBlueItem());
+		BIG_JADE_RED_1X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_red_1x"), new BigJadeRed1xItem());
+		BIG_JADE_BLUE_1X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_blue_1x"), new BigJadeBlue1xItem());
+		BIG_JADE_2X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_2x"), new BigJade2xItem());
+		BIG_JADE_BLUE_2X = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "big_jade_blue_2x"), new BigJadeBlue2xItem());
+		BULLET_TOOL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "bullet_tool"), new BulletToolItem());
+		HAT_OF_KOISHI_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "hat_of_koishi_helmet"),
+				new HatOfKoishiItem.Helmet());
 	}
 }
