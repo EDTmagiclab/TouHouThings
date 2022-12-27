@@ -765,6 +765,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_hat_of_koishi"
+    },
+    {
+      "name": "BuildSpoon",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_spoon"
     }
   ],
   "variable_elements": [
@@ -819,8 +827,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
+      "item.touhouthings.izanagi_object": "Izanagi Object",
       "item.touhouthings.eel": "生八目鳗肉",
       "item.touhouthings.hat_of_koishi_helmet": "恋恋帽子",
       "advancements.shot.title": "弹幕规则的诞生",

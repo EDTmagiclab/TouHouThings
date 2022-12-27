@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "touhouthings:ironstick"
+    },
+    "6": {
+      "item": "touhouthings:izanagi_metal"
+    }
+  },
+  "result": {
+    "item": "touhouthings:spoon",
+    "count": 1
+  }
+}
