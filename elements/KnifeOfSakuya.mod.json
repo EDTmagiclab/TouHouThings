@@ -1,0 +1,47 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "knife",
+    "customModelName": "Normal",
+    "name": "女仆长飞刀",
+    "specialInfo": [
+      "咲夜的飞刀",
+      "可近战可远程",
+      "忠！诚！"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TouhouThings"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:PPoint"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:KnifeOfSakuya"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "Egg2"
+    },
+    "onBulletHitsEntity": {
+      "name": "Egg2"
+    }
+  }
+}

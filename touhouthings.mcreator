@@ -773,6 +773,50 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "build_spoon"
+    },
+    {
+      "name": "Egg2",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnifeOfSakuya",
+      "type": "rangeditem",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_of_sakuya"
+    },
+    {
+      "name": "Coldspoon",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coldspoon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -873,6 +917,7 @@
       "block.touhouthings.blocker": "防撞桶",
       "item.touhouthings.big_jade_2x": "红色大玉2x",
       "item.touhouthings.new_gohei": "御币",
+      "item.touhouthings.knife_of_sakuya": "女仆长飞刀",
       "advancements.gohei.title": "巫女的武器",
       "item.touhouthings.big_jade_blue": "蓝色大玉",
       "advancements.izanagi.descr": "合成一块伊奘诺物质",

@@ -30,7 +30,7 @@ public class KonpakuSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 5f;
 			}
 
 			public int getLevel() {
@@ -44,7 +44,7 @@ public class KonpakuSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TouhouthingsModItems.IRONSTICK));
 			}
-		}, 3, -1.5f, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS));
+		}, 3, -2.4f, new Item.Properties().tab(TouhouthingsModTabs.TAB_TOUHOU_THINGS));
 	}
 
 	@Override

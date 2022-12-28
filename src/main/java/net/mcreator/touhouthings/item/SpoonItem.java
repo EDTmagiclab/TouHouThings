@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.touhouthings.procedures.ColdspoonProcedure;
 import net.mcreator.touhouthings.procedures.BbloodProcedure;
 import net.mcreator.touhouthings.init.TouhouthingsModTabs;
 import net.mcreator.touhouthings.init.TouhouthingsModItems;
@@ -66,5 +67,11 @@ public class SpoonItem extends ShovelItem {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u9955\u992E\u5C24\u9B54\u7684\u52FA\u5B50"));
 		list.add(Component.literal("\u6211\u80FD\u53BB\u4F60\u5BB6\u5403\u996D\u5417\uFF1F\u5C31\u4E00\u52FA"));
+	}
+
+	@Override
+	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+		ColdspoonProcedure
+				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).put("itemstack", itemstack).build());
 	}
 }

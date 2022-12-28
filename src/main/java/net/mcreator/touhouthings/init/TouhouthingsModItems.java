@@ -25,6 +25,7 @@ import net.mcreator.touhouthings.item.LittleJadeBlueItem;
 import net.mcreator.touhouthings.item.LittleJadeBlue2xItem;
 import net.mcreator.touhouthings.item.LittleJadeBlue1xItem;
 import net.mcreator.touhouthings.item.KonpakuSwordItem;
+import net.mcreator.touhouthings.item.KnifeOfSakuyaItem;
 import net.mcreator.touhouthings.item.JadeBallItem;
 import net.mcreator.touhouthings.item.IzanagiObjectItem;
 import net.mcreator.touhouthings.item.IzanagiMetalItem;
@@ -82,6 +83,7 @@ public class TouhouthingsModItems {
 	public static Item BIG_JADE_BLUE_2X;
 	public static Item BULLET_TOOL;
 	public static Item HAT_OF_KOISHI_HELMET;
+	public static Item KNIFE_OF_SAKUYA;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -132,5 +134,6 @@ public class TouhouthingsModItems {
 		BULLET_TOOL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "bullet_tool"), new BulletToolItem());
 		HAT_OF_KOISHI_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "hat_of_koishi_helmet"),
 				new HatOfKoishiItem.Helmet());
+		KNIFE_OF_SAKUYA = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "knife_of_sakuya"), new KnifeOfSakuyaItem());
 	}
 }
