@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "minecraft:paper"
+    },
+    "2": {
+      "item": "minecraft:milk_bucket"
+    },
+    "4": {
+      "item": "touhouthings:card_printer"
+    },
+    "5": {
+      "item": "touhouthings:p_point"
+    }
+  },
+  "result": {
+    "item": "touhouthings:empty_card",
+    "count": 1
+  }
+}

@@ -32,9 +32,6 @@
     "damageOnCrafting": false,
     "onEntityHitWith": {
       "name": "Bblood"
-    },
-    "onStoppedUsing": {
-      "name": "Coldspoon"
     }
   }
 }

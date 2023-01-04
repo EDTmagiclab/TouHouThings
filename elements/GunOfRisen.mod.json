@@ -3,13 +3,12 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "knife",
+    "texture": "gun1",
     "customModelName": "Normal",
-    "name": "女仆长飞刀",
+    "name": "月都科技枪",
     "specialInfo": [
-      "咲夜的飞刀",
-      "可近战可远程",
-      "忠！诚！"
+      "铃仙的同款武器",
+      "命中后会对敌人的精神产生影响"
     ],
     "creativeTab": {
       "value": "CUSTOM:TouhouThings"
@@ -19,23 +18,26 @@
       "value": "CUSTOM:PPoint"
     },
     "shootConstantly": false,
-    "usageCount": 0,
+    "usageCount": 350,
     "actionSound": {
-      "value": "item.trident.throw"
+      "value": "entity.rabbit.attack"
     },
     "hasGlow": false,
     "animation": "none",
-    "enableMeleeDamage": true,
-    "damageVsEntity": 3.0,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 3.0,
-    "bulletKnockback": 0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 3,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:KnifeOfSakuya"
+      "value": "CUSTOM:BigJadeRed"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "Uguneffect"
+    }
   }
 }

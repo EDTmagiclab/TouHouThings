@@ -28,5 +28,6 @@ public class TouhouthingsModEntityRenderers {
 		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_2X, ThrownItemRenderer::new);
 		EntityRendererRegistry.register(TouhouthingsModEntities.BIG_JADE_BLUE_2X, ThrownItemRenderer::new);
 		EntityRendererRegistry.register(TouhouthingsModEntities.KNIFE_OF_SAKUYA, ThrownItemRenderer::new);
+		EntityRendererRegistry.register(TouhouthingsModEntities.GUN_OF_RISEN, ThrownItemRenderer::new);
 	}
 }

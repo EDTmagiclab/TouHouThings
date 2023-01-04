@@ -19,6 +19,7 @@ import net.mcreator.touhouthings.entity.LittleJadeBlue2xEntity;
 import net.mcreator.touhouthings.entity.LittleJadeBlue1xEntity;
 import net.mcreator.touhouthings.entity.KnifeOfSakuyaEntity;
 import net.mcreator.touhouthings.entity.JadeBallEntity;
+import net.mcreator.touhouthings.entity.GunOfRisenEntity;
 import net.mcreator.touhouthings.entity.BigJadeRedEntity;
 import net.mcreator.touhouthings.entity.BigJadeRed1xEntity;
 import net.mcreator.touhouthings.entity.BigJadeBlueEntity;
@@ -46,6 +47,7 @@ public class TouhouthingsModEntities {
 	public static EntityType<BigJade2xEntity> BIG_JADE_2X;
 	public static EntityType<BigJadeBlue2xEntity> BIG_JADE_BLUE_2X;
 	public static EntityType<KnifeOfSakuyaEntity> KNIFE_OF_SAKUYA;
+	public static EntityType<GunOfRisenEntity> GUN_OF_RISEN;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ENTITY_TYPE, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"),
@@ -78,6 +80,8 @@ public class TouhouthingsModEntities {
 				createArrowEntityType(BigJadeBlue2xEntity::new));
 		KNIFE_OF_SAKUYA = Registry.register(Registry.ENTITY_TYPE, new ResourceLocation(TouhouthingsMod.MODID, "knife_of_sakuya"),
 				createArrowEntityType(KnifeOfSakuyaEntity::new));
+		GUN_OF_RISEN = Registry.register(Registry.ENTITY_TYPE, new ResourceLocation(TouhouthingsMod.MODID, "gun_of_risen"),
+				createArrowEntityType(GunOfRisenEntity::new));
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

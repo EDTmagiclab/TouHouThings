@@ -775,22 +775,6 @@
       "registry_name": "build_spoon"
     },
     {
-      "name": "Egg2",
-      "type": "procedure",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "egg_2",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "KnifeOfSakuya",
       "type": "rangeditem",
       "sortid": 94,
@@ -799,24 +783,108 @@
       "registry_name": "knife_of_sakuya"
     },
     {
-      "name": "Coldspoon",
+      "name": "Uguneffect",
       "type": "procedure",
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coldspoon",
+      "registry_name": "uguneffect",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
+    },
+    {
+      "name": "GunOfRisen",
+      "type": "rangeditem",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_of_risen"
+    },
+    {
+      "name": "BuildGunOfRisen",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_gun_of_risen"
+    },
+    {
+      "name": "CardPrinter",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_printer"
+    },
+    {
+      "name": "BuildCardPrinter",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_card_printer"
+    },
+    {
+      "name": "Eemptycard",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemptycard",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmptyCard",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_card"
+    },
+    {
+      "name": "BuildEmptyCard",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_empty_card"
+    },
+    {
+      "name": "HOV",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hov",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CardOfNitori",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card_of_nitori"
     }
   ],
   "variable_elements": [
@@ -871,8 +939,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
       "item.touhouthings.izanagi_object": "Izanagi Object",
+      "item.minecraft.potion.effect.gswsmax": "国士无双MAX",
       "item.touhouthings.eel": "生八目鳗肉",
       "item.touhouthings.hat_of_koishi_helmet": "恋恋帽子",
       "advancements.shot.title": "弹幕规则的诞生",
@@ -893,6 +961,7 @@
       "subtitles.dreambattle": "少女绮想曲~Dream Battle",
       "subtitles.undyingsmoke": "上海爱丽丝幻乐团-飘上月球 不死之烟",
       "item.touhouthings.big_jade_red": "红色大玉",
+      "item.touhouthings.gun_of_risen": "月都科技枪",
       "item.minecraft.splash_potion.effect.hourai_poison": "喷溅型蓬莱药",
       "item.touhouthings.dream_battle.desc": "博丽灵梦的主题曲",
       "item.touhouthings.sakata_wood_knife": "山姥的柴刀",
@@ -901,6 +970,7 @@
       "item.touhouthings.empty_disc": "空白唱片",
       "item.touhouthings.little_jade_red_1x": "红色小玉1x",
       "item.touhouthings.magic_neddle": "Magic Neddle",
+      "item.touhouthings.card_of_nitori": "村庄的守护神",
       "item.touhouthings.lunatic_princess.desc": "蓬莱山辉夜的主题曲",
       "item.touhouthings.little_jade_blue_2x": "蓝色小玉2x",
       "itemGroup.touhouthings.touhou_things": "东方物品",
@@ -918,6 +988,7 @@
       "item.touhouthings.big_jade_2x": "红色大玉2x",
       "item.touhouthings.new_gohei": "御币",
       "item.touhouthings.knife_of_sakuya": "女仆长飞刀",
+      "item.touhouthings.empty_card": "空白卡片",
       "advancements.gohei.title": "巫女的武器",
       "item.touhouthings.big_jade_blue": "蓝色大玉",
       "advancements.izanagi.descr": "合成一块伊奘诺物质",
@@ -929,6 +1000,7 @@
       "subtitles.lunatcprincess": "竹取飞翔~LunaticPrincess",
       "item.touhouthings.little_jade": "红色小玉",
       "item.touhouthings.master_spark_1": "恋色Master Spark",
+      "item.touhouthings.card_printer": "卡片打印机",
       "item.touhouthings.ironstick": "铁条",
       "advancements.master_spark.title": "MasterSpark",
       "advancements.shot.descr": "消耗一个P点发射弹幕",

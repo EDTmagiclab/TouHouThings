@@ -32,9 +32,13 @@ import net.mcreator.touhouthings.item.IzanagiMetalItem;
 import net.mcreator.touhouthings.item.IronstickItem;
 import net.mcreator.touhouthings.item.HistoryOfTheMoonItem;
 import net.mcreator.touhouthings.item.HatOfKoishiItem;
+import net.mcreator.touhouthings.item.GunOfRisenItem;
 import net.mcreator.touhouthings.item.EmptyDiscItem;
+import net.mcreator.touhouthings.item.EmptyCardItem;
 import net.mcreator.touhouthings.item.EelItem;
 import net.mcreator.touhouthings.item.DreamBattleItem;
+import net.mcreator.touhouthings.item.CardPrinterItem;
+import net.mcreator.touhouthings.item.CardOfNitoriItem;
 import net.mcreator.touhouthings.item.BulletToolItem;
 import net.mcreator.touhouthings.item.BigJadeRedItem;
 import net.mcreator.touhouthings.item.BigJadeRed1xItem;
@@ -84,6 +88,10 @@ public class TouhouthingsModItems {
 	public static Item BULLET_TOOL;
 	public static Item HAT_OF_KOISHI_HELMET;
 	public static Item KNIFE_OF_SAKUYA;
+	public static Item GUN_OF_RISEN;
+	public static Item CARD_PRINTER;
+	public static Item EMPTY_CARD;
+	public static Item CARD_OF_NITORI;
 
 	public static void load() {
 		JADE_BALL = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "jade_ball"), new JadeBallItem());
@@ -135,5 +143,9 @@ public class TouhouthingsModItems {
 		HAT_OF_KOISHI_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "hat_of_koishi_helmet"),
 				new HatOfKoishiItem.Helmet());
 		KNIFE_OF_SAKUYA = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "knife_of_sakuya"), new KnifeOfSakuyaItem());
+		GUN_OF_RISEN = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "gun_of_risen"), new GunOfRisenItem());
+		CARD_PRINTER = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "card_printer"), new CardPrinterItem());
+		EMPTY_CARD = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "empty_card"), new EmptyCardItem());
+		CARD_OF_NITORI = Registry.register(Registry.ITEM, new ResourceLocation(TouhouthingsMod.MODID, "card_of_nitori"), new CardOfNitoriItem());
 	}
 }

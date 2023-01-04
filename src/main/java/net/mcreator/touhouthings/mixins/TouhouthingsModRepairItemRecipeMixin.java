@@ -32,5 +32,8 @@ public abstract class TouhouthingsModRepairItemRecipeMixin {
 		if ((itemStack3 = (ItemStack) list.get(0)).is((TouhouthingsModItems.BULLET_TOOL))) {
 			cir.setReturnValue(ItemStack.EMPTY);
 		}
+		if ((itemStack3 = (ItemStack) list.get(0)).is((TouhouthingsModItems.CARD_PRINTER))) {
+			cir.setReturnValue(ItemStack.EMPTY);
+		}
 	}
 }

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "touhouthings:p_point"
+    },
+    "4": {
+      "item": "touhouthings:bullet_tool"
+    },
+    "5": {
+      "item": "touhouthings:big_jade_red"
+    },
+    "6": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "touhouthings:gun_of_risen",
+    "count": 1
+  }
+}
